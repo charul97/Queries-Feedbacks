@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h4>Welcome, <%= mob %></h4>
+    <form method="POST" action="/submitFeed">
+      <select name="dept">
+        <option value="dept1">Department 1</option>
+        <option value="dept2">Department 2</option>
+        <option value="dept3">Department 3</option>
+      </select>
+    	<label>Enter Feedback: </label>
+    	Feedback<input type="text" name="inpFeedback"> <br>
+      Query<input type="text" name="inpQuery">
+    	<input type="submit" name="btn-submit" value="Submit">
+    </form>
+  </body>
+</html>

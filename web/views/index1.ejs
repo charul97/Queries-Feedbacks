@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+  </head>
+  <body>
+    <div id="background">
+    <p style="color: red;"><%= nMsg %></p>
+    <form method="POST" action="/contactInput">
+    	<label>Contact No.</label>
+    	<input type="text" maxlength="10" name="contactNum">
+    	<input type="submit" name="btn-submit" value="Proceed">
+    </form>
+    </div>
+  </body>
+</html>
